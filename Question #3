@@ -1,0 +1,10 @@
+seconds=input("Enter your value in Seconds: ")
+seconds=float(seconds)
+hours=seconds/3600
+hours=float(hours)
+minutes= seconds/60
+minutes=float(minutes)
+seconds=seconds
+print(hours)
+print(minutes)
+print(seconds)
